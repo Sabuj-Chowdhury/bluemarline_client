@@ -1,11 +1,11 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { MessageSquare } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { MessageSquare } from "lucide-react";
 
 const WhatsAppButton = () => {
   return (
     <motion.a
-      href="https://wa.me/8801234567890" // Replace with actual number
+      href="https://wa.me/+8801740505011" // Replace with actual number
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}

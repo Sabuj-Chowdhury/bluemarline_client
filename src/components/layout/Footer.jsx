@@ -59,22 +59,26 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-white font-bold mb-6 text-lg">Contact</h4>
+            <h4 className="text-white font-bold mb-6 text-lg">Contact HQ</h4>
             <ul className="space-y-5">
               <li className="flex items-start gap-3 text-zinc-400">
                 <MapPin className="text-primary shrink-0 mt-1" size={18} />
-                <span className="font-medium">
-                  123 Industrial Area, Phase 1, Standard Factory Zone, Dhaka.
-                </span>
+                <div className="text-xs leading-relaxed">
+                  <p className="font-bold text-zinc-200 mb-1 tracking-wider uppercase">Address</p>
+                  <p>AIENTA, DOLESHWAR, WORD NO-2, SOUTH KERANIGONG, DHAKA-1310, BD</p>
+                </div>
               </li>
-              <li className="flex items-center gap-3 text-zinc-400">
-                <Phone className="text-primary shrink-0" size={18} />
-                <span className="font-medium">+880 1234 567 890</span>
-              </li>
-              <li className="flex items-center gap-3 text-zinc-400">
+               <li className="flex items-center gap-3 text-zinc-400">
                 <Mail className="text-primary shrink-0" size={18} />
-                <span className="font-medium">sales@bluemarlinbd.com</span>
+                <span className="font-medium text-sm">bluemarlinbd18@gmail.com</span>
               </li>
+              
+              <li className="flex items-center gap-3 text-zinc-400 pt-2">
+                <Phone className="text-primary shrink-0" size={18} />
+                <span className="font-medium text-sm">+8801740505011</span>
+              </li>
+
+             
             </ul>
           </div>
         </div>
